@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Développement Informatique">
+    <title>Portfolio - Développeur Informatique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#inspiration">Inspiration</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="home" class="section-home">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Je suis un développeur informatique spécialisé en <strong>développement web</strong> et <strong>applications logicielles</strong>.</p>
+    </section>
+
+    <!-- Section Profil -->
+    <section id="profil" class="section">
+        <h2>Mon Profil</h2>
+        <h3>Parcours Académique et Professionnel</h3>
+        <p>Étudiant en développement informatique avec une expérience pratique chez <strong>Ocsalis</strong>. Passionné par les nouvelles technologies et l'innovation.</p>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section">
+        <h2>Portefeuille de Compétences</h2>
+        <div class="competences">
+            <h3>Langages et Technologies</h3>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>React.js, Node.js</li>
+                <li>Python, Java</li>
+                <li>SQL, MongoDB</li>
+            </ul>
+
+            <h3>Projets Réalisés</h3>
+            <div class="projet">
+                <h4>Projet 1 : Site de e-commerce</h4>
+                <p>Un site complet de e-commerce avec React et une base de données MongoDB.</p>
+                <a href="https://github.com/ton-repo/projet-ecommerce">Voir sur GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Inspiration -->
+    <section id="inspiration" class="section">
+        <h2>Inspiration</h2>
+        <p>Je m'inspire de nombreux développeurs influents dans le domaine du développement web moderne. Voici quelques références et tutoriels que je recommande :</p>
+        <ul>
+            <li><a href="https://example.com">Tutoriel React.js avancé</a></li>
+            <li><a href="https://example.com">Développement Backend avec Node.js</a></li>
+        </ul>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Envoyez-moi un message pour toute collaboration ou opportunité !</p>
+        <form id="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portfolio - Développeur Informatique</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
